@@ -54,9 +54,6 @@ fire3 = pygame.image.load('pics/fire3.png')
 
 flames = [fire,fire3,fire2]
 
-speed_icon = pygame.image.load('pics/speed_icon.png')
-laser_icon = pygame.image.load('pics/laser_icon.png')
-
 metal = pygame.image.load('pics/metal.png')
 
 boss = pygame.image.load('pics/boss.png')
@@ -64,10 +61,6 @@ boss = pygame.image.load('pics/boss.png')
 #Sounds
 cluck = pygame.mixer.Sound('sounds/cluck.ogg')
 track = 'sounds/track.wav'
-happy = 'sounds/happy.wav'
-
-#fonts
-font1 = pygame.font.Font("fonts/space_age.ttf",30)
 
 #stages
 START = 1
@@ -182,6 +175,7 @@ class Mob(pygame.sprite.Sprite):
         if self.shield <= 0:
             self.kill()
             player.score += 100
+            cluck.play()
 
     def shoot(self):
         bomb = Bomb(flames)
@@ -274,7 +268,7 @@ bombs = pygame.sprite.Group()
 done = False
 
 #music
-pygame.mixer.music.load(happy)
+pygame.mixer.music.load(track)
 pygame.mixer.music.play()
 
 #helper functions
