@@ -1,12 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to my Space War Game
 
-You can use the [editor on GitHub](https://github.com/fieldsparrow2629/space_war/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Space war is the journey of Turt the Turtle, whos quest is to slay all the alien enemies and finally, the alien boss man.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Screen Shots
 
 ```markdown
 Syntax highlighted code block
