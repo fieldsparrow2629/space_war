@@ -61,6 +61,7 @@ boss = pygame.image.load('pics/boss.png')
 #Sounds
 cluck = pygame.mixer.Sound('sounds/cluck.ogg')
 track = 'sounds/track.wav'
+shoot = pygame.mixer.Sound('sounds/shoot.ogg')
 
 #stages
 START = 1
@@ -105,6 +106,7 @@ class Ship(pygame.sprite.Sprite):
 
         if self.cooldown[0] == self.cooldown[1]:
             lasers.add(las)
+            shoot.play()
             player.score -= 5
             self.cooldown[0] = 0
 
