@@ -286,7 +286,7 @@ def get_monsters(mobs):
     mob8 = Mob(450,0,big_ufo,3)
     mob9 = Mob(600,0,big_ufo,3)
     mob10 = Mob(750,0,big_ufo,3)
-    boss_man = Mob(450,0,boss,3)
+    boss_man = Mob(450,0,boss,30)
 
     mob_options = [mob1,mob2,mob3,mob4,mob5,mob6,mob7,mob8,mob9,mob10]
     
