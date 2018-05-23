@@ -15,3 +15,5 @@ Turt's Adventure is the journey of Turt the Turtle, whos quest is to slay all th
 
 ## User Reviews
 *Elon Musk: "Wow, best game ever."* **_10/10_**
+*Queen of England: "Nice."* **_9/10_**
+*Mr.Mayfield: "So addicting!!"* **_10/10_**
