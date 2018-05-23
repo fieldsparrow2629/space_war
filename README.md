@@ -14,4 +14,4 @@ Turt's Adventure is the journey of Turt the Turtle, whos quest is to slay all th
 ![alt text](https://raw.githubusercontent.com/fieldsparrow2629/space_war/master/screenshots/capture3.JPG)
 
 ## User Reviews
-Elon Musk: "Wow, best game ever." **_10/10_**
+*Elon Musk: "Wow, best game ever."* **_10/10_**
