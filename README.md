@@ -1,5 +1,5 @@
-## Welcome to my Space War Game
-Space war is the journey of Turt the Turtle, whos quest is to slay all the alien enemies and finally, the alien boss man.
+## Welcome to my Turt's Adventure
+Turt's adventure is the journey of Turt the Turtle, whos quest is to slay all the alien enemies and finally, the alien boss man. It has it all, action, mystery, romance, you name it. Turt's Adventure is revolutionary, and will change not only gaming, but digital art for years to come.
 
 ## How to play
 Your objective is to clear all 10 waves of aliens and then kill the final boss, Glooboar. 
