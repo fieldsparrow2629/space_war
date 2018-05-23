@@ -11,5 +11,3 @@ As you gain more points you will get the opportunity to upgrade either reload sp
 
 ![alt text](https://raw.githubusercontent.com/fieldsparrow2629/space_war/master/pics/turt.png)
 
-[Link](url) and ![Image](src)
-```
