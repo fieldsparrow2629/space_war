@@ -10,4 +10,5 @@ As you gain more points you will get the opportunity to upgrade either reload sp
 ### Screen Shots
 
 ![alt text](https://raw.githubusercontent.com/fieldsparrow2629/space_war/master/pics/turt.png)
+![alt text](https://raw.githubusercontent.com/fieldsparrow2629/space_war/master/screenshots/capture1.JPG)
 
