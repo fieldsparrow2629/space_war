@@ -42,6 +42,8 @@ turtle_left_hurt = pygame.image.load('pics/turtle_hurt.png')
 turtle_right_hurt = pygame.transform.flip(turtle_left_hurt,1,0)
 turtle_hurt_list = [turtle_left_hurt,turtle_right_hurt]
 
+boss = pygame.image.load('pics/boss.png')
+
 background = pygame.image.load('pics/space.png')
 ufo = pygame.image.load('pics/ufo.png')
 big_ufo = pygame.image.load('pics/big_ufo.png')
@@ -51,12 +53,9 @@ yellow_beam = pygame.image.load('pics/yellow_beam.png')
 fire = pygame.image.load('pics/fire.png')
 fire2 = pygame.image.load('pics/fire2.png')
 fire3 = pygame.image.load('pics/fire3.png')
-
 flames = [fire,fire3,fire2]
 
 metal = pygame.image.load('pics/metal.png')
-
-boss = pygame.image.load('pics/boss.png')
 
 #Sounds
 cluck = pygame.mixer.Sound('sounds/cluck.ogg')
@@ -171,7 +170,6 @@ class Mob(pygame.sprite.Sprite):
         hit_list = pygame.sprite.spritecollide(self,lasers,True,pygame.sprite.collide_mask)
 
         if len(hit_list) > 0:
-            cluck.play()
             self.shield -= 1
 
         if self.shield <= 0:
@@ -292,7 +290,6 @@ def get_monsters(mobs):
     
     if level == len(mob_options) + 1:
         mobs.add(boss_man)
-        
     else:
         for i in range(0,level):
             mobs.add(mob_options[i])
@@ -350,7 +347,6 @@ def show_stats(player):
     screen.blit(lvl_text,[800,32])
     screen.blit(speed,[800,50])
     screen.blit(reload,[790,68])
-
 
 def title_screen():
     screen.blit(battleground,[0,0])
@@ -436,10 +432,10 @@ while not done:
 
     if stage == UPGRADE:
         upgrade_screen()
-
+        
     if stage == START:
         title_screen()
-
+        
     if stage == CLEARED:
         level += 1
         if level > boss_lvl:
