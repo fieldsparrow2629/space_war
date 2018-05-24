@@ -271,7 +271,7 @@ done = False
 
 #music
 pygame.mixer.music.load(track)
-pygame.mixer.music.play()
+pygame.mixer.music.play(-1)
 
 #helper functions
 def get_monsters(mobs):
@@ -313,11 +313,12 @@ def reset_player():
     player.score = 0
 
 def setup():
-    global stage,level,score_req,max_lvl
+    global stage,level,score_req,max_lvl,boss_lvl
     stage = START
     level = 1
     score_req = 300
     max_lvl = 10
+    boss_lvl = max_lvl + 1
 
     lasers.empty()
     bombs.empty()
@@ -441,7 +442,7 @@ while not done:
 
     if stage == CLEARED:
         level += 1
-        if level > max_lvl + 1:
+        if level > boss_lvl:
             stage = WIN
         else:
             reset_monsters()
